@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="38b83696-406d-4a9f-bbaf-a1cbef3e132b" data-root-id="2356"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2469">
+          {"cf4221c5-6708-4e9b-8705-cd4ef3837c9a":{"roots":{"references":[{"attributes":{},"id":"2381","type":"HelpTool"},{"attributes":{"overlay":{"id":"2400","type":"BoxAnnotation"}},"id":"2378","type":"BoxZoomTool"},{"attributes":{"label":{"field":"Brand"},"renderers":[{"id":"2394","type":"GlyphRenderer"}]},"id":"2402","type":"LegendItem"},{"attributes":{},"id":"2398","type":"CategoricalTickFormatter"},{"attributes":{"source":{"id":"2355","type":"ColumnDataSource"}},"id":"2395","type":"CDSView"},{"attributes":{},"id":"2379","type":"SaveTool"},{"attributes":{"format":"$0,0i[.]00"},"id":"2389","type":"NumeralTickFormatter"},{"attributes":{},"id":"2363","type":"CategoricalScale"},{"attributes":{"click_policy":"hide","items":[{"id":"2402","type":"LegendItem"}]},"id":"2401","type":"Legend"},{"attributes":{"fill_color":{"field":"Color"},"line_color":{"field":"Color"},"top":{"field":"Revenue"},"width":{"value":0.9},"x":{"field":"Course"}},"id":"2392","type":"VBar"},{"attributes":{},"id":"2411","type":"UnionRenderers"},{"attributes":{"text":"YTD_All_SS"},"id":"2357","type":"Title"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"2400","type":"BoxAnnotation"},{"attributes":{"axis_label":"Course","formatter":{"id":"2398","type":"CategoricalTickFormatter"},"major_label_orientation":"vertical","ticker":{"id":"2368","type":"CategoricalTicker"}},"id":"2367","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"Revenue"},"width":{"value":0.9},"x":{"field":"Course"}},"id":"2393","type":"VBar"},{"attributes":{"axis_label":"Revenue","formatter":{"id":"2389","type":"NumeralTickFormatter"},"ticker":{"id":"2372","type":"BasicTicker"}},"id":"2371","type":"LinearAxis"},{"attributes":{"callback":null,"mode":"vline","tooltips":[["Brand","@Brand"],["Vertical","@Vertical"],["Course","@Course"],["Revenue","$@Revenue"]]},"id":"2403","type":"HoverTool"},{"attributes":{},"id":"2377","type":"WheelZoomTool"},{"attributes":{},"id":"2376","type":"PanTool"},{"attributes":{},"id":"2365","type":"LinearScale"},{"attributes":{},"id":"2380","type":"ResetTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2376","type":"PanTool"},{"id":"2377","type":"WheelZoomTool"},{"id":"2378","type":"BoxZoomTool"},{"id":"2379","type":"SaveTool"},{"id":"2380","type":"ResetTool"},{"id":"2381","type":"HelpTool"},{"id":"2403","type":"HoverTool"}]},"id":"2382","type":"Toolbar"},{"attributes":{"below":[{"id":"2367","type":"CategoricalAxis"}],"center":[{"id":"2370","type":"Grid"},{"id":"2375","type":"Grid"},{"id":"2401","type":"Legend"},{"id":"2405","type":"Span"}],"left":[{"id":"2371","type":"LinearAxis"}],"renderers":[{"id":"2394","type":"GlyphRenderer"}],"sizing_mode":"scale_both","title":{"id":"2357","type":"Title"},"toolbar":{"id":"2382","type":"Toolbar"},"x_range":{"id":"2359","type":"FactorRange"},"x_scale":{"id":"2363","type":"CategoricalScale"},"y_range":{"id":"2361","type":"DataRange1d"},"y_scale":{"id":"2365","type":"LinearScale"}},"id":"2356","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"data":{"Brand":["IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS"],"Color":["#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b"],"Course":["TX Seller Server TABC Online Course","IN Alcohol Seller Server Training","WI Seller Server Online Course","IL Seller Server Online Course","Seller Server Online Course","TX Seller Server TABC Course - Online Course","CO Alcohol Seller Server Training","NE State Seller Server Program","NJ Seller Server Training","MN Alcohol Seller Server Training","AR Seller Server Course - Online Course","NM Alcohol Seller Server Training","MT State Seller Server Program","Seller Server DVD Course","FL Seller Server Course - Employee","MD Alcohol Seller Server Training","CT Alcohol Seller Server Training","KY Alcohol Seller Server Training","ID Alcohol Seller Server Training","PA Alcohol Seller Server Training","FL Seller Server Course - Management","NH Alcohol Seller Server Training"],"Revenue":{"__ndarray__":"AAAAAACa5kAAAAAAwLrWQAAAAAAAL8tAAAAAAIB6x0AAAAAAgB7FQAAAAAAAq7tAAAAAAADlsEAAAAAAAFB0QAAAAAAAIGxAAAAAAAAAaUAAAAAAAABpQAAAAAAA4GVAAAAAAADgZUAAAAAAAABhQAAAAAAAQF9AAAAAAAAAWUAAAAAAAABZQAAAAAAAwFJAAAAAAADAUkAAAAAAAABJQAAAAAAAAElAAAAAAAAAOUA=","dtype":"float64","shape":[22]},"State":["TX","IN","WI","IL","No State","TX","CO","NE","NJ","MN","AR","NM","MT","No State","FL","MD","CT","KY","ID","PA","FL","NH"],"Vertical":["SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS"],"index":[20,7,21,6,18,19,1,12,14,10,0,15,11,17,3,9,2,8,5,16,4,13]},"selected":{"id":"2412","type":"Selection"},"selection_policy":{"id":"2411","type":"UnionRenderers"}},"id":"2355","type":"ColumnDataSource"},{"attributes":{"callback":null},"id":"2361","type":"DataRange1d"},{"attributes":{"ticker":{"id":"2368","type":"CategoricalTicker"}},"id":"2370","type":"Grid"},{"attributes":{"callback":null,"factors":["TX Seller Server TABC Online Course","IN Alcohol Seller Server Training","WI Seller Server Online Course","IL Seller Server Online Course","Seller Server Online Course","TX Seller Server TABC Course - Online Course","CO Alcohol Seller Server Training","NE State Seller Server Program","NJ Seller Server Training","MN Alcohol Seller Server Training","AR Seller Server Course - Online Course","NM Alcohol Seller Server Training","MT State Seller Server Program","Seller Server DVD Course","FL Seller Server Course - Employee","MD Alcohol Seller Server Training","CT Alcohol Seller Server Training","KY Alcohol Seller Server Training","ID Alcohol Seller Server Training","PA Alcohol Seller Server Training","FL Seller Server Course - Management","NH Alcohol Seller Server Training"]},"id":"2359","type":"FactorRange"},{"attributes":{},"id":"2368","type":"CategoricalTicker"},{"attributes":{"dimension":1,"ticker":{"id":"2372","type":"BasicTicker"}},"id":"2375","type":"Grid"},{"attributes":{"line_color":{"value":"#99d594"},"line_width":{"value":3},"location":5443.590909090909},"id":"2405","type":"Span"},{"attributes":{"data_source":{"id":"2355","type":"ColumnDataSource"},"glyph":{"id":"2392","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2393","type":"VBar"},"selection_glyph":null,"view":{"id":"2395","type":"CDSView"}},"id":"2394","type":"GlyphRenderer"},{"attributes":{},"id":"2372","type":"BasicTicker"},{"attributes":{},"id":"2412","type":"Selection"}],"root_ids":["2356"]},"title":"Bokeh Application","version":"1.2.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2469').textContent;
+                  var render_items = [{"docid":"cf4221c5-6708-4e9b-8705-cd4ef3837c9a","roots":{"2356":"38b83696-406d-4a9f-bbaf-a1cbef3e132b"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

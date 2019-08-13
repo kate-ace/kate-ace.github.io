@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="8d32d654-78a0-4817-85ef-3274a5a4be43" data-root-id="2011"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2124">
+          {"6245d27f-7e14-4326-b367-e2674244e03e":{"roots":{"references":[{"attributes":{"callback":null,"data":{"Brand":["DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC","DEC"],"Color":["#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f","#d53e4f"],"Course":["CA Teen","TX Adult","TX Teen parent-taught","OH Teen","ID Teen","CO Teen","WI Teen","TX Teen","GA Teen","IN Teen","PA Teen","FL Teen TLSAE","NV Teen","OK Teen","Adult Course","FL DHSMV Test","AZ DIP","UT Teen","IL Adult","TX Teen Stem","TX DIP","VA Teen","MI DIP","AZ Teen","MN Teen","TX Teen parent-taught mini","NE Teen","AmericaDrives Adult"],"Revenue":{"__ndarray__":"AAAAAFDLKUEAAAAAevghQQAAAACcNh9BAAAAAMBXHkEAAAAA1K8RQQAAAAAg1gxBAAAAADAwC0EAAAAAiFQJQQAAAACAtwdBAAAAAEBoBkEAAAAAQG3/QAAAAAAAvvlAAAAAAOBW+EAAAAAAUFL2QAAAAAAANfNAAAAAAOD/8EAAAAAAoHXwQAAAAACgru9AAAAAAMDf7UAAAAAAgLLsQAAAAADgQ+hAAAAAACD140AAAAAAAKndQAAAAAAAksBAAAAAAADKuEAAAAAAAMK4QAAAAAAATJpAAAAAAAAwf0A=","dtype":"float64","shape":[28]},"State":["CA","TX","TX","OH","ID","CO","WI","TX","GA","IN","PA","FL","NV","OK","No State","FL","AZ","UT","IL","TX","TX","VA","MI","AZ","MN","TX","NE","No State"],"Vertical":["DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV","DRV"],"index":[5,21,26,18,11,6,30,24,10,13,20,8,17,19,2,7,0,28,12,25,23,29,14,1,15,27,16,3]},"selected":{"id":"2067","type":"Selection"},"selection_policy":{"id":"2066","type":"UnionRenderers"}},"id":"2010","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"Revenue"},"width":{"value":0.9},"x":{"field":"Course"}},"id":"2048","type":"VBar"},{"attributes":{"format":"$0,0i[.]00"},"id":"2044","type":"NumeralTickFormatter"},{"attributes":{},"id":"2031","type":"PanTool"},{"attributes":{"data_source":{"id":"2010","type":"ColumnDataSource"},"glyph":{"id":"2047","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2048","type":"VBar"},"selection_glyph":null,"view":{"id":"2050","type":"CDSView"}},"id":"2049","type":"GlyphRenderer"},{"attributes":{},"id":"2020","type":"LinearScale"},{"attributes":{"fill_color":{"field":"Color"},"line_color":{"field":"Color"},"top":{"field":"Revenue"},"width":{"value":0.9},"x":{"field":"Course"}},"id":"2047","type":"VBar"},{"attributes":{"click_policy":"hide","items":[{"id":"2057","type":"LegendItem"}]},"id":"2056","type":"Legend"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2031","type":"PanTool"},{"id":"2032","type":"WheelZoomTool"},{"id":"2033","type":"BoxZoomTool"},{"id":"2034","type":"SaveTool"},{"id":"2035","type":"ResetTool"},{"id":"2036","type":"HelpTool"},{"id":"2058","type":"HoverTool"}]},"id":"2037","type":"Toolbar"},{"attributes":{},"id":"2036","type":"HelpTool"},{"attributes":{"label":{"field":"Brand"},"renderers":[{"id":"2049","type":"GlyphRenderer"}]},"id":"2057","type":"LegendItem"},{"attributes":{"axis_label":"Course","formatter":{"id":"2053","type":"CategoricalTickFormatter"},"major_label_orientation":"vertical","ticker":{"id":"2023","type":"CategoricalTicker"}},"id":"2022","type":"CategoricalAxis"},{"attributes":{},"id":"2035","type":"ResetTool"},{"attributes":{"line_color":{"value":"#99d594"},"line_width":{"value":3},"location":169530.14285714287},"id":"2060","type":"Span"},{"attributes":{"below":[{"id":"2022","type":"CategoricalAxis"}],"center":[{"id":"2025","type":"Grid"},{"id":"2030","type":"Grid"},{"id":"2056","type":"Legend"},{"id":"2060","type":"Span"}],"left":[{"id":"2026","type":"LinearAxis"}],"renderers":[{"id":"2049","type":"GlyphRenderer"}],"sizing_mode":"scale_both","title":{"id":"2012","type":"Title"},"toolbar":{"id":"2037","type":"Toolbar"},"x_range":{"id":"2014","type":"FactorRange"},"x_scale":{"id":"2018","type":"CategoricalScale"},"y_range":{"id":"2016","type":"DataRange1d"},"y_scale":{"id":"2020","type":"LinearScale"}},"id":"2011","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"2034","type":"SaveTool"},{"attributes":{"overlay":{"id":"2055","type":"BoxAnnotation"}},"id":"2033","type":"BoxZoomTool"},{"attributes":{},"id":"2032","type":"WheelZoomTool"},{"attributes":{"ticker":{"id":"2023","type":"CategoricalTicker"}},"id":"2025","type":"Grid"},{"attributes":{},"id":"2027","type":"BasicTicker"},{"attributes":{"source":{"id":"2010","type":"ColumnDataSource"}},"id":"2050","type":"CDSView"},{"attributes":{"dimension":1,"ticker":{"id":"2027","type":"BasicTicker"}},"id":"2030","type":"Grid"},{"attributes":{"axis_label":"Revenue","formatter":{"id":"2044","type":"NumeralTickFormatter"},"ticker":{"id":"2027","type":"BasicTicker"}},"id":"2026","type":"LinearAxis"},{"attributes":{"text":"YTD_DEC"},"id":"2012","type":"Title"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"2055","type":"BoxAnnotation"},{"attributes":{},"id":"2053","type":"CategoricalTickFormatter"},{"attributes":{"callback":null},"id":"2016","type":"DataRange1d"},{"attributes":{},"id":"2023","type":"CategoricalTicker"},{"attributes":{"callback":null,"factors":["CA Teen","TX Adult","TX Teen parent-taught","OH Teen","ID Teen","CO Teen","WI Teen","TX Teen","GA Teen","IN Teen","PA Teen","FL Teen TLSAE","NV Teen","OK Teen","Adult Course","FL DHSMV Test","AZ DIP","UT Teen","IL Adult","TX Teen Stem","TX DIP","VA Teen","MI DIP","AZ Teen","MN Teen","TX Teen parent-taught mini","NE Teen","AmericaDrives Adult"]},"id":"2014","type":"FactorRange"},{"attributes":{},"id":"2066","type":"UnionRenderers"},{"attributes":{},"id":"2067","type":"Selection"},{"attributes":{"callback":null,"mode":"vline","tooltips":[["Brand","@Brand"],["Vertical","@Vertical"],["Course","@Course"],["Revenue","$@Revenue"]]},"id":"2058","type":"HoverTool"},{"attributes":{},"id":"2018","type":"CategoricalScale"}],"root_ids":["2011"]},"title":"Bokeh Application","version":"1.2.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2124').textContent;
+                  var render_items = [{"docid":"6245d27f-7e14-4326-b367-e2674244e03e","roots":{"2011":"8d32d654-78a0-4817-85ef-3274a5a4be43"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

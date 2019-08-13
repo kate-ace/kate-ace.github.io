@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="90a4316f-b614-4373-933d-165f1fdd89c9" data-root-id="3825"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="3938">
+          {"dd2f435f-905f-4d2d-b0cf-fdc8fb9a6144":{"roots":{"references":[{"attributes":{"callback":null,"mode":"vline","tooltips":[["Brand","@Brand"],["Vertical","@Vertical"],["Course","@Course"],["Revenue","$@Revenue"]]},"id":"3872","type":"HoverTool"},{"attributes":{"label":{"field":"Brand"},"renderers":[{"id":"3863","type":"GlyphRenderer"}]},"id":"3871","type":"LegendItem"},{"attributes":{"click_policy":"hide","items":[{"id":"3871","type":"LegendItem"}]},"id":"3870","type":"Legend"},{"attributes":{"text":"LTD_All_SS"},"id":"3826","type":"Title"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"3869","type":"BoxAnnotation"},{"attributes":{},"id":"3848","type":"SaveTool"},{"attributes":{},"id":"3832","type":"CategoricalScale"},{"attributes":{"ticker":{"id":"3837","type":"CategoricalTicker"}},"id":"3839","type":"Grid"},{"attributes":{"line_color":{"value":"#99d594"},"line_width":{"value":3},"location":137507.38586206897},"id":"3874","type":"Span"},{"attributes":{"overlay":{"id":"3869","type":"BoxAnnotation"}},"id":"3847","type":"BoxZoomTool"},{"attributes":{"axis_label":"Course","formatter":{"id":"3867","type":"CategoricalTickFormatter"},"major_label_orientation":"vertical","ticker":{"id":"3837","type":"CategoricalTicker"}},"id":"3836","type":"CategoricalAxis"},{"attributes":{},"id":"3867","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"factors":["TX Seller Server TABC Online Course","TX Seller Server TABC Course - Online Course","Seller Server Online Course","Seller Server DVD Course","IN Alcohol Seller Server Training","IL Seller Server Online Course","WI Seller Server Online Course","NM Alcohol Seller Server Training","CO Alcohol Seller Server Training","CO Alcohol Seller Server","KY Alcohol Seller Server Training","FL Seller Server Course - Employee","OH Alcohol Seller Server Training","PA Alcohol Seller Server Training","NE State Seller Server Program","MT State Seller Server Program","AR Seller Server Course - Online Course","MD Alcohol Seller Server Training","MN Alcohol Seller Server Training","WI Seller Server DVD Course","CT Alcohol Seller Server Training","NJ Seller Server Training","FL Seller Server Course - Management","ID Alcohol Seller Server Training","RI Alcohol Seller Server Training","KS  Alcohol Seller Server Training","HI Alcohol Seller Server Training","NH Alcohol Seller Server Training","AR Seller Server Course - DVD Course"]},"id":"3828","type":"FactorRange"},{"attributes":{},"id":"3841","type":"BasicTicker"},{"attributes":{},"id":"3837","type":"CategoricalTicker"},{"attributes":{},"id":"3845","type":"PanTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"3845","type":"PanTool"},{"id":"3846","type":"WheelZoomTool"},{"id":"3847","type":"BoxZoomTool"},{"id":"3848","type":"SaveTool"},{"id":"3849","type":"ResetTool"},{"id":"3850","type":"HelpTool"},{"id":"3872","type":"HoverTool"}]},"id":"3851","type":"Toolbar"},{"attributes":{},"id":"3834","type":"LinearScale"},{"attributes":{"callback":null,"data":{"Brand":["IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS","IDS"],"Color":["#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b","#fee08b"],"Course":["TX Seller Server TABC Online Course","TX Seller Server TABC Course - Online Course","Seller Server Online Course","Seller Server DVD Course","IN Alcohol Seller Server Training","IL Seller Server Online Course","WI Seller Server Online Course","NM Alcohol Seller Server Training","CO Alcohol Seller Server Training","CO Alcohol Seller Server","KY Alcohol Seller Server Training","FL Seller Server Course - Employee","OH Alcohol Seller Server Training","PA Alcohol Seller Server Training","NE State Seller Server Program","MT State Seller Server Program","AR Seller Server Course - Online Course","MD Alcohol Seller Server Training","MN Alcohol Seller Server Training","WI Seller Server DVD Course","CT Alcohol Seller Server Training","NJ Seller Server Training","FL Seller Server Course - Management","ID Alcohol Seller Server Training","RI Alcohol Seller Server Training","KS  Alcohol Seller Server Training","HI Alcohol Seller Server Training","NH Alcohol Seller Server Training","AR Seller Server Course - DVD Course"],"Revenue":{"__ndarray__":"zczMrF8/REE9CtejeXsTQZqZmZnHwgtBZmZmZla/CUEAAAAAmBQHQZqZmZkbjwNBAAAAAIYnAkEAAAAAgPvfQAAAAACA+stAAAAAAIBCwEAAAAAAAECvQClcj8L1RalAAAAAAACUoUAAAAAAAHieQAAAAAAAhJxAAAAAAAC8m0AAAAAAAK6ZQAAAAAAAqJZAAAAAAAB4jkAAAAAAAGCJQAAAAAAAOIhAAAAAAABQhEAAAAAAAOB1QAAAAAAAUHRAAAAAAADAckAAAAAAACBsQAAAAAAAAGlAAAAAAAAAWUAAAAAAAAA5QA==","dtype":"float64","shape":[29]},"State":["TX","TX","No State","No State","IN","IL","WI","NM","CO","CO","KY","FL","OH","PA","NE","MT","AR","MD","MN","WI","CT","NJ","FL","ID","RI","KS","HI","NH","AR"],"Vertical":["SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS","SS"],"index":[26,25,24,23,10,9,28,19,3,2,12,5,20,21,16,15,1,13,14,27,4,18,6,8,22,11,7,17,0]},"selected":{"id":"3881","type":"Selection"},"selection_policy":{"id":"3880","type":"UnionRenderers"}},"id":"3824","type":"ColumnDataSource"},{"attributes":{"data_source":{"id":"3824","type":"ColumnDataSource"},"glyph":{"id":"3861","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3862","type":"VBar"},"selection_glyph":null,"view":{"id":"3864","type":"CDSView"}},"id":"3863","type":"GlyphRenderer"},{"attributes":{"axis_label":"Revenue","formatter":{"id":"3858","type":"NumeralTickFormatter"},"ticker":{"id":"3841","type":"BasicTicker"}},"id":"3840","type":"LinearAxis"},{"attributes":{"below":[{"id":"3836","type":"CategoricalAxis"}],"center":[{"id":"3839","type":"Grid"},{"id":"3844","type":"Grid"},{"id":"3870","type":"Legend"},{"id":"3874","type":"Span"}],"left":[{"id":"3840","type":"LinearAxis"}],"renderers":[{"id":"3863","type":"GlyphRenderer"}],"sizing_mode":"scale_both","title":{"id":"3826","type":"Title"},"toolbar":{"id":"3851","type":"Toolbar"},"x_range":{"id":"3828","type":"FactorRange"},"x_scale":{"id":"3832","type":"CategoricalScale"},"y_range":{"id":"3830","type":"DataRange1d"},"y_scale":{"id":"3834","type":"LinearScale"}},"id":"3825","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null},"id":"3830","type":"DataRange1d"},{"attributes":{},"id":"3846","type":"WheelZoomTool"},{"attributes":{"source":{"id":"3824","type":"ColumnDataSource"}},"id":"3864","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"Revenue"},"width":{"value":0.9},"x":{"field":"Course"}},"id":"3862","type":"VBar"},{"attributes":{"format":"$0,0i[.]00"},"id":"3858","type":"NumeralTickFormatter"},{"attributes":{"dimension":1,"ticker":{"id":"3841","type":"BasicTicker"}},"id":"3844","type":"Grid"},{"attributes":{},"id":"3850","type":"HelpTool"},{"attributes":{},"id":"3881","type":"Selection"},{"attributes":{},"id":"3880","type":"UnionRenderers"},{"attributes":{},"id":"3849","type":"ResetTool"},{"attributes":{"fill_color":{"field":"Color"},"line_color":{"field":"Color"},"top":{"field":"Revenue"},"width":{"value":0.9},"x":{"field":"Course"}},"id":"3861","type":"VBar"}],"root_ids":["3825"]},"title":"Bokeh Application","version":"1.2.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('3938').textContent;
+                  var render_items = [{"docid":"dd2f435f-905f-4d2d-b0cf-fdc8fb9a6144","roots":{"3825":"90a4316f-b614-4373-933d-165f1fdd89c9"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
